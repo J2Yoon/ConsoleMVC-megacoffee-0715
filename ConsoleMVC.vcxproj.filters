@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{a1a1a1a1-0001-4a1a-9a1a-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repositories">
+      <UniqueIdentifier>{a1a1a1a1-0002-4a1a-9a1a-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{a1a1a1a1-0003-4a1a-9a1a-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{a1a1a1a1-0004-4a1a-9a1a-000000000004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\OrderStatus.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Sample.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Order.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ProductionJob.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\ISampleRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\IOrderRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\InMemorySampleRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\InMemoryOrderRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\SampleController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\OrderController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\ProductionController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\ShipmentController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\MonitoringController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\ConsoleView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\MainMenuView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Repositories\InMemorySampleRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\InMemoryOrderRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\SampleController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\OrderController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ProductionController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ShipmentController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\MonitoringController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\ConsoleView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\MainMenuView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

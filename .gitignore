@@ -1,0 +1,13 @@
+# Visual Studio / MSBuild 빌드 산출물
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.ilk
+*.pdb
+*.exe
+*.log
+*.tlog
+*.vcxproj.user
